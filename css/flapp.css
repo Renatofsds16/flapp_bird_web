@@ -1,16 +1,4 @@
-* {
-    box-sizing: border-box;
-    margin: 0px;
-}
-@font-face {
-    font-family: 'Pixel';
-    src: url('../fonts/Pixel.ttf') format('truetype');
-}
-body {
-    background-color: cadetblue;
-    font-family: 'Pixel', sans-serif;
-    color: white;
-}
+
 [wm-flapp] {
     position: relative;
     border: 5px solid dodgerblue;
@@ -59,5 +47,6 @@ body {
     top: 10px;
     right: 10px;
     font-size: 70px;
+    z-index: 1;
 
 }
